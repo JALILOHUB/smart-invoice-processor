@@ -54,7 +54,7 @@ The **Smart Invoice Processor** is an AI-powered agent that:
    (validate) (categorize) (anomaly) (PDF)
 ```
 
-### Components:
+### 🧩 Components:
 
 1. **FastAPI Server**: REST API endpoint for invoice processing
 2. **Security Layer**: Regex-based prompt injection detection
@@ -76,6 +76,7 @@ The **Smart Invoice Processor** is an AI-powered agent that:
 | **Pytest** | Automated testing |
 | **MCP** | Model Context Protocol server |
 | **Gherkin BDD** | Behavior-driven specifications |
+| **Antigravity** | AI-powered development environment for building and testing agents |
 
 ---
 
