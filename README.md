@@ -31,7 +31,7 @@ The **Smart Invoice Processor** is an AI-powered agent that:
 ---
 
 ## 🏗️ Architecture
-
+ ```
 ┌─────────────────────────────────────────┐
 │ FastAPI Server (8080) │
 │ POST /process │
