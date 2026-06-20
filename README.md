@@ -31,3 +31,34 @@ The **Smart Invoice Processor** is an AI-powered agent that:
 ---
 
 ## 🏗️ Architecture
+
+┌─────────────────────────────────────────┐
+│ FastAPI Server (8080) │
+│ POST /process │
+└────────────────────────────────────────┘
+│
+▼
+┌────────┴────────┐
+│ Security Layer │ ← Prompt Injection Detection
+└────────┬────────┘
+│
+┌────────┴────────┐
+│ Orchestrator │ ← Main Agent (ADK)
+└────────┬────────┘
+│
+┌────────┼────────┬────────┐
+│ │ │ │
+▼ ▼ ▼ ▼
+extractor classifier analyzer reporter
+(validate) (categorize) (anomaly) (PDF)
+
+
+### Components:
+
+1. **FastAPI Server**: REST API endpoint for invoice processing
+2. **Security Layer**: Regex-based prompt injection detection
+3. **Orchestrator**: Main ADK agent coordinating specialized tools
+4. **Extractor Tool**: Data validation and parsing
+5. **Classifier Tool**: Expense categorization
+6. **Analyzer Tool**: Anomaly detection (high-value, weekend transactions)
+7. **Reporter Tool**: PDF report generation
