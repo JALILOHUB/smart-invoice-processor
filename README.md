@@ -51,7 +51,7 @@ The **Smart Invoice Processor** is an AI-powered agent that:
 ▼ ▼ ▼ ▼
 extractor classifier analyzer reporter
 (validate) (categorize) (anomaly) (PDF)
-
+ ```
 
 ### Components:
 
