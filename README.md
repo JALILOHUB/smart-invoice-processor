@@ -1,5 +1,7 @@
 # Smart Invoice & Receipt Processor 🧾
 
+### 🎥 [Watch Full Demo on YouTube](https://youtu.be/i6Je2qLrrAg)
+
 ## 🎯 Project Overview
 
 An enterprise-grade AI agent that automates invoice processing, expense categorization, and anomaly detection for small businesses and freelancers. Built using Google ADK 2.0 with a multi-layer security architecture.
